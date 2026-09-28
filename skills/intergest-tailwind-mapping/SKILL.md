@@ -1,11 +1,11 @@
 ---
-name: intergest-tailwind-mapping
-description: Apply the Intergest SvelteKit site's Figma-to-Tailwind layout, typography, color, component, and image conventions. Use for implementation work in the Intergest site; do not apply its values to unrelated projects.
+name: figma-tailwind-mapping
+description: Apply SvelteKit projects's Figma-to-Tailwind layout, typography, color, component, and image conventions.
 ---
 
-# Intergest Tailwind mapping
+# Figma Tailwind mapping
 
-Use alongside `figma-to-svelte-sections` when implementing a Figma section in the Intergest SvelteKit site. Check the current code before using these conventions, since project values may change.
+Use alongside `figma-to-svelte-sections` when implementing a Figma section in the SvelteKit projects. Check the current code before using these conventions, since project values may change.
 
 ## Project structure
 
