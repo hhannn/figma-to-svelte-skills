@@ -11,8 +11,6 @@ Read the target project's conventions before editing: existing section boundarie
 
 Build the semantic content and mobile layout first. Map larger frames with responsive grid spans, order, gaps, and alignment based on the actual Figma frames. Use named text and color tokens when the project has them; use exact values when the design requires them. Check text wrapping and image crop in the rendered page, not just the markup.
 
-Leading whitespace in Figma paragraphs may represent a first-line spacer. Implement the offset with the project's spacer component or CSS text indent; do not copy artificial spaces into content.
-
 If Figma shows a shader, treat it as a visual placeholder. Use the underlying base image in the section. The shader will be wired later; do not implement its Figma effect as part of the section unless the user explicitly asks.
 
 Add requested interaction and motion after the static layout is correct. Follow the project's lifecycle and cleanup pattern for animations and scrolling.
